@@ -20,20 +20,6 @@ HTML: The frontend is built using HTML, including dropdown menus and checkboxes 
 Clone the Repository: Clone the project to your local machine.
 Set Up Maven Dependencies: Ensure that all Maven dependencies, including gson and jsoup, are set up correctly in your pom.xml file. If necessary, reload Maven projects to apply the changes.
 
-Example pom.xml dependency setup:
-
-xml
-Copy code
-<dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.11.0</version>
-</dependency>
-<dependency>
-    <groupId>org.jsoup</groupId>
-    <artifactId>jsoup</artifactId>
-    <version>1.14.3</version>
-</dependency>
 API Access: The Dog CEO API is used to fetch images. No API key is required, but you will need internet access for the app to connect to the API.
 
 Run the Application: Run the application using a local server like Apache Tomcat or another Java web server. Ensure that the server is properly configured with SSL certificates to avoid SSL handshake issues.
